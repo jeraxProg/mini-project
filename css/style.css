@@ -817,6 +817,10 @@ footer{
 	margin-top: 30px;
 
  }
+
+ .pcBuilder h1 span {
+	color: #CF2D1E;
+ }
  
  .builderTable {
 	margin: 50px auto;
