@@ -871,7 +871,7 @@ footer{
 
 
 /* menu preview */
-menu-preview{
+.menu-preview{
     position: fixed;
     top:0; left: 0;
     min-height: 100vh;
@@ -1126,6 +1126,10 @@ menu-preview{
 	}
 	.content .right{
 	  margin-top: 40px;
+	}
+
+	#testimonials .heading {
+		font-size: 30px;
 	}
   }
 
