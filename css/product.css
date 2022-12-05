@@ -1,0 +1,110 @@
+#allproducts {
+	background-color: #0f0e0e;
+	color: #ffffff;
+}
+#allproducts .title {
+	margin-left: 50px;
+	padding-bottom:30px ;
+}
+#allproducts .container {
+	display: flex;
+	padding: 50px;
+	max-width: 1600px;
+	
+}
+#allproducts .container .leftMenu {
+	flex: 1;
+}
+
+#allproducts .container .leftMenu .search {
+	padding: 10px;
+	width: 300px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	
+}
+#allproducts .container .leftMenu h1 {
+	padding: 30px 0;
+	font-size: 35px;
+	color: rgb(218, 218, 218);
+	font-weight: 300;
+}
+#allproducts .container .leftMenu .cats {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+#allproducts .container .leftMenu .cats .cat {
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 300;
+	padding: 10px;
+	background-color: #cf2d1ee4;
+	border-radius: 7px;	
+	margin: 2px 0px;
+	
+}
+
+#allproducts .container .leftMenu .cats .cat:hover, .active {
+	background-color: #cf2d1ea1;
+}
+
+#allproducts .container .content{
+	flex: 4;
+}
+
+#allproducts .container .content .products {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+	margin-left: 50px;
+}
+#allproducts .container .content .products .product {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	background-color: #423e3e;
+	padding-bottom: 30px;
+	border-radius: 10px;
+	
+}
+#allproducts .container .content .products .product:hover {
+	box-shadow: 5px 5px 20px #6f6e6e;
+}
+
+#allproducts .container .content .products .product img {
+	width: 200px;
+	height: 250px;
+	object-fit: contain;
+	cursor: pointer;
+}
+#allproducts .container .content .products .product .name {
+	height: 100px;
+	font-size: small;
+	text-align: center;
+}
+
+#allproducts .container .content .products .product .product_price {
+	display: flex;
+	justify-content: space-between;
+	gap: 70px;
+}
+#allproducts .container .content .products .product .product_price span {
+	font-size: 25px;
+}
+
+#allproducts .container .content .products .product .product_price button {
+	background-color: #CF2D1E;
+	padding: 0 10px;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+#allproducts .container .content .products .product .product_price button:hover {
+	background-color: #cf2d1eac;
+}
+

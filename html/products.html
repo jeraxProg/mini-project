@@ -7,6 +7,8 @@
     <meta AMD RYZEN 5 4600G (AM4)="viewport" content="width=device-width, initial-scale=1.0">
     <title>NCG RIG SHOP | PC Builder</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/modal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -28,7 +30,7 @@
             <div class="header-2 sticky-top">
                 <nav class="navbar">
                     <a href="./builder.html">Pc Builder</a>
-                    <a href="./builtpc.html">Build Gallery</a>
+                    <!-- <a href="./builtpc.html">Build Gallery</a> -->
                     <a href="./products.html">Our Products</a>
                     <a href="./blog.html">Blog</a>
                     <a href="./about.html">About Us</a>
@@ -43,51 +45,60 @@
 
         </header>
         <section id="allproducts">
-           
+
             <div class="container">
-                
+
                 <div class="leftMenu">
                     <input type="text" placeholder="Search..." class="search">
-                    </form>
                     <h1>Categories</h1>
                     <div class="cats">
-                
+
                     </div>
-                        <!-- <h1>Maximum Price</h1>
-                        <div class="price">
-                            <input type="range" class="priceRange">
-                            <span>₱5000</span>
-                        </div> -->
                 </div>
                 <div class="content">
                     <h1 class="title">All Products</h1>
                     <div class="products">
-                   <!-- <span class="cat">ALL</span>
-                        <span class="cat">GPU</span>
-                        <span class="cat">CPU</span>
-                        <span class="cat">Motherboard</span>
-                        <span class="cat">RAM</span>
-                        <span class="cat">SSD</span>
-                        <span class="cat">HDD</span>
-                        <span class="cat">PSU</span>
-                        <span class="cat">Casing</span>
-                        <span class="cat">Monitor</span>
-                        <span class="cat">CPU Cooler</span>
-                        <span class="cat">Fan</span>
-                        <span class="cat">Mouse</span>
-                        <span class="cat">Keyboard</span>
-                        <span class="cat">VGA Cable</span>
-                        <span class="cat">Mouse Pad</span>
-                        <span class="cat">SATA Cable</span>
-                        <span class="cat">Patch Cord/ Lan Cable</span>
-                        <span class="cat">Hdmi</span>
-                        <span class="cat">Headset</span> -->
 
 
                     </div>
                 </div>
+
             </div>
-          
+
+
+            <div class="modal-bg">
+
+                <div class="modal" data-target="1">
+                    <div class="img-container">
+                        <img src="../images/ryzen.png" alt="">
+                    </div>
+                    <div class="product">
+                        <div class="product-title">
+                            <h2>Ryzen 9 7950X</h2>
+                        </div>
+                        <div class="specs-container">
+                            <h3>Specifications</h3>
+                            <ul class="product-details">
+                                <div class="col-2">
+                                    <li>base speed: <span>4.5Ghz</span></li>
+                                    <li>turbo speed: <span>5.7Ghz</li>
+                                    <li>socket: <span>AM5</li>
+                                </div>
+                                <div class="col-2">
+                                    <li>cores: <span>6</li>
+                                    <li>threads: <span>12</li>
+                                    <li>memory type: <span>DDR5</li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="add-button">
+                        <h3>₱48,350</h3>
+                        <button> Add to Cart</button>
+                    </div>
+                    <span class="modal-close">X</span>
+                </div>
+            </div>
 
 
         </section>
@@ -152,6 +163,8 @@
 
         <script src="../js/script.js"></script>
         <script src="../js/product.js"></script>
+        <script src="../js/modal.js"></script>
+
 
 
 </body>

@@ -154,7 +154,7 @@ nav ul li a:after{
 
 
 .container{
-	max-width: 1400px;
+	max-width: 1600px;
 	margin:auto;
 	
 }
@@ -774,7 +774,7 @@ footer{
 
 
 /*responsive*/
-@media(max-width: 767px){
+@media(max-width: 768px){
 
 	#home .caption{
 		width:100%;
@@ -870,11 +870,78 @@ footer{
  }
 
 
-
+/* menu preview */
+menu-preview{
+    position: fixed;
+    top:0; left: 0;
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.menu-preview .preview{
+    display: none;
+    padding: 0.5rem; 
+    text-align: center;
+    position: relative;
+    /* margin: 1rem; */
+    width: 40%;
+    background: #fff;
+}
+.menu-preview .preview img{
+    width: 100%;
+}
+.menu-preview .preview.active{
+    display: inline-block;
+}
+.menu-preview .preview h3{
+    font-size: 2rem;
+    color: #333;
+}
+.menu-preview .preview .stars{
+    color: gold;
+    font-size: 1.2rem;
+}
+.menu-preview .preview .stars li{  
+    margin: 0 1rem ;
+    
+} 
+.menu-preview .preview p{
+    font-size: 1.8rem;
+    color: #333;
+}
+.menu-preview .preview a{
+    display: inline-block;
+    width: 10rem; height: 2.6rem;
+    background: gold;
+    color: honeydew;
+    font-size: 1.5rem;
+    border: 0.1rem solid gold;
+    border-radius: 0.5rem;
+}
+.menu-preview .preview a:hover{
+    background: none;
+    color: #333;
+}
+.menu-preview .preview .fa-xmark{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+}
+.menu-preview .preview .fa-xmark:hover{
+    transform: rotate(180deg);
+    color: gold;
+}
+/* menu preview */
 
 
 /* Product PAge */
-#allproducts {
+/* #allproducts {
 	background-color: #0f0e0e;
 	color: #ffffff;
 }
@@ -982,7 +1049,7 @@ footer{
 }
 #allproducts .container .content .products .product .product_price button:hover {
 	background-color: #cf2d1eac;
-}
+} */
 /* @media (max-width:768px) {
 #allproducts .container .leftMenu {
 	display: none;

@@ -96,7 +96,7 @@ hamburger.onclick = function(){
       updateCircleIndicator();
   }
 
-  let timer=setInterval(autoPlay,5000);
+  let timer=setInterval(autoPlay,4000);
 
 
 

@@ -1,0 +1,142 @@
+
+
+#table_products {
+    width: 1400px;
+    margin: 50px auto;
+}
+.box1 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0%;
+    padding-top: 12.8px;
+    padding-bottom: 12.8px;
+    border-bottom: 1px solid rgb(174, 180, 190);
+    
+}
+.comp {
+    line-height: 1.5;
+    flex: 1 1 0%;
+    color: rgb(55, 63, 80);
+    font-size: 18px;
+    text-align: center;
+    text-transform: none;
+    white-space: normal;
+}
+.pro {
+    line-height: 1.5;
+    flex: 1.6 1 0%;
+    color: rgb(55, 63, 80);
+    font-size: 18px;
+    text-align: center;
+    text-transform: none;
+    white-space: normal;
+}
+.det {
+    line-height: 1.5;
+    flex: 2 1 0%;
+    color: rgb(55, 63, 80);
+    font-size: 18px;
+    text-transform: none;
+    white-space: normal;
+}
+.price {
+    line-height: 1.5;
+    flex: 2 1 0%;
+    color: rgb(55, 63, 80);
+    font-size: 18px;
+    text-transform: none;
+    white-space: normal;
+}
+
+.list {
+    list-style: none;
+    margin: 0px;
+    padding: 8px 0px;
+    position: relative;
+    background-color: black;
+    color: #fff;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgb(193, 205, 215);
+}
+
+.comp2{
+    display: flex;
+    flex: 1 1 0%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 40px;
+    margin-top: 5%;
+}
+.pro2 {
+    display: flex;
+    flex: 1.6 1 0%;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.pro2 img {
+    width: 100px;
+	height: 150px;
+	object-fit: contain;
+}
+.det2 {
+    display: flex;
+    flex: 2 1 0%;
+    margin-top: 5%;
+
+}
+.price2 {
+    display: flex;
+    flex: 2 1 0%;
+ 
+}
+.price2 .price_det {
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 0%;
+    margin-top: 15%;
+    
+}
+.price2 .add {
+    display: flex;
+    flex: 1 1 0%;
+    padding-right: 40px;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    align-items: center;
+    
+   
+}
+
+.price2 .add button {
+    padding: 0px 12px ;
+    cursor: pointer;
+    background-color: #69BD4B;
+    color: #fff;
+    font-size: 30px;
+
+}
+
+.price2 .add button:hover {
+    background-color: #69bd4b85;
+
+}
