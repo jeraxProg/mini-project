@@ -68,7 +68,7 @@
 	background-color: #423e3e;
 	padding-bottom: 30px;
 	border-radius: 10px;
-	
+
 }
 #allproducts .container .content .products .product:hover {
 	box-shadow: 5px 5px 20px #6f6e6e;
@@ -79,6 +79,10 @@
 	height: 250px;
 	object-fit: contain;
 	cursor: pointer;
+}
+
+#allproducts .container .content .products .product img:hover{
+	transform: scale(1.1);
 }
 #allproducts .container .content .products .product .name {
 	height: 100px;

@@ -162,7 +162,7 @@ nav ul li a:after{
 #home .container{
 	 flex-grow: 1;
 }
-#home .caption{
+/* #home .caption{
 	width:50%;
 }
 #home .caption h1{
@@ -207,7 +207,7 @@ nav ul li a:after{
 	100%{
 	 opacity:1; transform: translateX(0px);	
 	}
-}
+} */
 
 .prev {
 	margin-left: 2%;
@@ -353,6 +353,10 @@ nav ul li a:after{
 	font-size: 40px;
 	text-align: center;
 	margin-top: 50px;
+}
+
+#product h1 span {
+	color: #CF2D1E;
 }
 
 #product .slider{
@@ -752,22 +756,25 @@ footer{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	height: 100vh;
 
-  }
-  #about_header .container {
-	text-align: center;
-	width:  700px;
 	
+
   }
 
-  #about_header .container h1 {
+
+#about_header .container h1 {
 	padding: 40px 0;
 	font-size: 3rem;
+	text-align: center;
+	
+
 
   }
   #about_header .container p {
 	font-size: 30px;
 	padding: 40px;
+	
   }
 
   
@@ -875,7 +882,7 @@ footer{
 
 
 /* menu preview */
-.menu-preview{
+/* .menu-preview{
     position: fixed;
     top:0; left: 0;
     min-height: 100vh;
@@ -890,7 +897,7 @@ footer{
     padding: 0.5rem; 
     text-align: center;
     position: relative;
-    /* margin: 1rem; */
+  
     width: 40%;
     background: #fff;
 }
@@ -940,7 +947,7 @@ footer{
 .menu-preview .preview .fa-xmark:hover{
     transform: rotate(180deg);
     color: gold;
-}
+} */
 /* menu preview */
 
 
